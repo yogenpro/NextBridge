@@ -5,6 +5,7 @@ description = "The chat bridge that links up all the major chat platforms!"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "certifi>=2026.10.19",
     "discord-py>=2.6.3",
     "websockets>=13.0",
     "aiohttp>=3.14.0",
